@@ -1,0 +1,20 @@
+@import url('../../styles/theme.module.css');
+
+.blockquote {
+  margin-left: 0;
+  padding-left: 1rem;
+  border-left: 2px solid var(--dark-orange);
+  opacity: var(--quote-opacity);
+}
+
+.link {
+  color: var(--orange);
+}
+
+.link:hover {
+  color: var(--dark-orange);
+}
+
+.image {
+  max-width: 100%; 
+}

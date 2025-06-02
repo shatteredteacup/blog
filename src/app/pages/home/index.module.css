@@ -1,0 +1,39 @@
+@import url('../../styles/theme.module.css');
+
+.homeContainer {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1.5rem 2rem;
+}
+
+.selectGroup {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.selectGroup strong {
+  color: var(--dark-green);
+}
+
+.blogsGroup {
+  margin-top: 1rem;
+}
+
+.blogsGroup strong {
+  color: var(--dark-green);
+  grid-column: auto;
+}
+
+.blogsGroup ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem
+}
+
+.blogsGroup a {
+  color: var(--orange);
+}
+
+.blogsGroup a:hover {
+  color: var(--dark-orange);
+}
