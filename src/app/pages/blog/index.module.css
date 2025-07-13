@@ -1,0 +1,13 @@
+@import url('../../styles/theme.module.css');
+
+.blogContainer {
+  width: 100%;
+}
+
+.blog {
+  padding: 0.5rem 2rem 2rem 2rem;
+}
+
+.blogTitle {
+  color: var(--dark-green);
+}

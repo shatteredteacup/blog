@@ -1,0 +1,33 @@
+:root {
+  --page-width-lg: 50%;
+  --page-width-md: 65%;
+  --page-width-sm: 80%;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+}
+
+.pageContainer {
+  width: var(--page-width-lg);
+  min-height: 100vh;
+  border: 1px solid var(--dark-white);
+  margin-bottom: 5rem;
+  overflow: auto;
+}
+
+@media (max-width: 1000px) {
+  .pageContainer {
+    width: var(--page-width-md);
+  }
+}
+
+@media (max-width: 750px) {
+  .pageContainer {
+    width: var(--page-width-sm);
+  }
+}
